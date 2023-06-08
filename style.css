@@ -1,0 +1,61 @@
+* {
+    margin: 5px;
+    padding: 1px;
+    font-size: 1em;
+
+}
+
+
+
+#img-header {
+
+    width: 1300px; /*--- longeur de l'image---*/
+    height: 100px;  /*--- hauteur de l'image---*/
+    overflow: hidden; /* Pour  rogner l'image */
+    margin-left: -10px; /*--- deplacement de l'image vers la gauche---*/
+ 
+   
+}
+
+.texte-header{
+    display: flex;
+    margin-top: -110px;  /*--- deplacement du texte dans l'image vers le haut---*/
+    margin-left: 70px;   /*--- deplacement du texte dans l'image vers la gauche---*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 100px;
+    color: khaki;
+}
+
+
+/*-------------  section -------------- */
+
+
+.sous-section1,.section2,.section3{
+    color: white;
+    font-family: Helvetica;
+    font-size: 32px;
+   }
+   
+
+
+.sous-section1 {
+    background-color: mediumspringgreen;
+}
+
+.section2 {
+    background-color: lightcoral;
+}
+
+.section3 {
+    background-color: skyblue;
+}
+
+.couleur {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+.Espacement {
+    padding-top: 40px;    /*  ------- espacement vers le haut------ */
+}
